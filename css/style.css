@@ -1,0 +1,19 @@
+/* import font files from font.css */
+@import url("./font.css/font.css");
+
+.header.main-menu.navbar.navbar-brand{
+    padding: 0 2rem 0 5rem;
+
+}
+
+.with-margin {
+    margin-right: 20px; 
+  }
+.nav-link.with-margin:hover {
+     transform: scale(1.2); /* Increase text size on hover */
+     transition: transform 0.2s ease; /* Add a smooth transition effect */
+      }
+  .dropdown-item:hover {
+    font-size: 24px; /* Increase the font size when hovered */
+    transition: font-size 0.3s ease; /* Add a smooth transition effect */
+}
